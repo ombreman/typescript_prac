@@ -1,0 +1,26 @@
+{
+  "name": "typescript_prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "function_prac.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc -p .",
+    "dev": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ombreman/typescript_prac.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ombreman/typescript_prac/issues"
+  },
+  "homepage": "https://github.com/ombreman/typescript_prac#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "typescript": "^4.3.5"
+  }
+}
